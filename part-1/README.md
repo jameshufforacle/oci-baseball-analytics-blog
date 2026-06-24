@@ -1,4 +1,4 @@
-# Part 1: Blueprint + OCI Environment Setup
+# Part 1: Set Up the Baseball Analytics Platform on OCI
 
 Part 1 provisions the shared foundation for the baseball analytics platform. It intentionally creates only the OCI Functions application shell; source-specific functions begin in Part 2.
 
@@ -31,7 +31,7 @@ raw/source=mlb_stats_api/dataset=schedule/ingest_date=2026-06-23/part-<run-id>.j
 
 ## Deploy with OCI Resource Manager
 
-1. From `part-1/terraform`, create a ZIP containing the Terraform files and `modules/` at the ZIP root.
+1. Download the ready-to-upload [`part-1-resource-manager.zip`](https://github.com/jameshufforacle/oci-baseball-analytics-blog/releases/latest/download/part-1-resource-manager.zip). To build it yourself instead, create a ZIP from `part-1/terraform` with the Terraform files and `modules/` at the ZIP root.
 2. In OCI, open **Developer Services > Resource Manager > Stacks**.
 3. Create a stack from the ZIP.
 4. Review and set all required variables.

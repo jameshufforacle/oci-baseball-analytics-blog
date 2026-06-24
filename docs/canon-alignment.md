@@ -2,6 +2,7 @@
 
 The repository applies the following controlling decisions:
 
+- The canonical Part 1 title is **Set Up the Baseball Analytics Platform on OCI**.
 - The end-to-end solution is called a **platform**.
 - OCI Functions is the canonical ingestion compute.
 - Part 1 provisions the shared Functions application shell only.

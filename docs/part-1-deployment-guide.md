@@ -1,4 +1,4 @@
-# Part 1 deployment guide
+# Part 1: Set Up the Baseball Analytics Platform on OCI
 
 Part 1 is a Terraform and OCI Resource Manager quickstart. The blog should explain the architecture and selected Terraform excerpts, while this repository carries the complete deployable bundle.
 
@@ -68,11 +68,11 @@ The paired policy limits object management to the platform bucket and grants the
 
 ## Resource Manager flow
 
-1. Download the repository.
+1. Download the ready-to-upload [`part-1-resource-manager.zip`](https://github.com/jameshufforacle/oci-baseball-analytics-blog/releases/latest/download/part-1-resource-manager.zip), or clone the repository to inspect and package the source.
 2. Review this guide and `part-1/terraform/`.
-3. ZIP the contents of `part-1/terraform/`.
+3. If building the bundle yourself, ZIP the contents of `part-1/terraform/`.
 4. Create a Resource Manager stack from the ZIP.
-5. enter the required placement, ADB, and OAC values.
+5. Enter the required placement, ADB, and OAC values.
 6. Run Plan.
 7. Review the inventory of resources.
 8. Run Apply.

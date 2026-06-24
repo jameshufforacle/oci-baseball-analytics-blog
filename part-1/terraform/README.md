@@ -17,7 +17,9 @@ OAC and Functions IAM are required parts of this stack. There are no `deploy_oac
 
 ## Resource Manager ZIP
 
-Run from this directory:
+Download the ready-to-upload bundle from the [latest GitHub release](https://github.com/jameshufforacle/oci-baseball-analytics-blog/releases/latest/download/part-1-resource-manager.zip).
+
+To build the same ZIP locally, run from this directory:
 
 ```bash
 zip -r part-1-resource-manager.zip . \
