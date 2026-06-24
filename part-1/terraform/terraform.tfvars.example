@@ -1,0 +1,23 @@
+region           = "us-ashburn-1"
+tenancy_ocid     = "<tenancy_OCID>"
+compartment_ocid = "<compartment_OCID>"
+
+project_name = "bb-analytics"
+environment  = "demo"
+
+vcn_cidr_block              = "10.42.0.0/16"
+functions_subnet_cidr_block = "10.42.10.0/24"
+
+adb_db_name     = "BBADBDEMO"
+adb_ecpu_count  = 4
+adb_storage_tbs = 1
+
+oac_olpu_count      = 1
+oac_whitelisted_ips = []
+
+# Set these in OCI Resource Manager as sensitive variables. Do not commit values.
+# adb_admin_password     = "<adb_admin_password>"
+# oac_idcs_access_token = "<oac_idcs_access_token>"
+
+# Optional.
+# notification_email = "<notification_email>"
